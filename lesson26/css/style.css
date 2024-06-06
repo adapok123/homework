@@ -1,0 +1,30 @@
+div{
+    color: #86eb13;
+}
+.block{
+    color: red;
+}
+#id-block{
+    color: blueviolet;
+}
+[data-exemple]{
+    color: brown;
+}
+[data-exemple="value2"]{
+    color: #9349aa;
+}
+.block3 , .block4, .block5{
+    color: blue;
+}
+div.blue-block{
+    color: #e6a009;
+}
+div .orange{
+    color: #515a04;
+}
+.parent>.child{
+    color: cadetblue;
+}
+ul:first-of-type li:nth-last-child(1) {
+    font-weight: bold;   
+   }
