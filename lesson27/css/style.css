@@ -1,0 +1,22 @@
+/* приоритет 10 */
+.block {
+    width: 500px;
+    height: 500px;
+    background: #000;
+}
+/* приоритет 10+1=11 */
+div.block {
+    background: rgb(0, 255, 170);
+}
+/* приоритет 100 */
+#block {
+    background: green;
+}
+/* приоритет 10 */
+.block-2 {
+    background: red;
+}
+/* приоритет 1 */        
+div{
+    background: purple !important;
+}
