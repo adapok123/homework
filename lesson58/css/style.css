@@ -1,0 +1,147 @@
+/* body {
+  background-color: #333;
+  color: #fff;
+}
+
+.container {
+  padding: 100px 100px 50vh;
+  height: 100%;
+}
+
+.transition {
+  height: 100%;
+}
+
+.button {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  background-color: #555;
+}
+
+.block {
+  width: 15px;
+  height: 150px;
+}
+
+.red {
+  background: linear-gradient(120deg, #f34384c4, #f16452c4 1000px);
+}
+
+.blue {
+  background: linear-gradient(120deg, #5f51dbc4, #73bcecc4 1000px);
+}
+
+.orange {
+  background: linear-gradient(120deg, #f09351c4, #f8bf86c4 1000px);
+}
+
+.purple {
+  background: linear-gradient(120deg, #b475f8c4, #d27bf2c4 1000px);
+}
+
+.transition:hover .block {
+  width: 100%;
+} */
+
+/* ================================================================ */
+/* 
+.button {
+transition: background .3s,  border-radius .3s .3s; */
+
+
+/* transition-duration: .3s, .3s; */
+/* transition-property: background, border-radius; */
+/* transition-delay: ; */
+/* transition-timing-function: ; */
+/* } */
+/* 
+.button:hover {
+  background: #d78383;
+  border-radius: 100px;
+} */
+/* .block {
+  transition-duration: 1s;
+}
+
+.red {
+  transition-timing-function: ease;
+}
+
+.blue {
+  transition-timing-function: ease-in;
+}
+
+.orange {
+  transition-timing-function: ease-out;
+}
+
+.purple {
+  transition-timing-function: cubic-bezier(1, 0, 0, 1);
+} */
+
+/* ================================================================= */
+
+body {
+  background-color: #1a1a1c;
+  color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  background: #3b3a3d;
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7de07d;
+  font-size: 30px;
+}
+
+.box span {
+  opacity: 0;
+}
+
+.box__scale {
+  position: absolute;
+  top: -100px;
+  left: -300px;
+  right: 600px;
+  height: 30px;
+  background: #fff;
+}
+
+.box:hover .box__scale {
+  right: -300px;
+}
+
+.box:hover span {
+  opacity: 1;
+}
+
+/* ================== Выполнение дз ниже =================== */
+
+
+
+.box__scale {
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+}
+
+span {
+  transition-delay: 1s;
+  transition-duration: .4s;
+}
