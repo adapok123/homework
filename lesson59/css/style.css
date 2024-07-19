@@ -1,0 +1,143 @@
+/* body {
+  background-color: #1e1e20;
+}
+
+.wrapper {
+  padding: 50px;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  height: 200px;
+  background-color: #444;
+}
+
+.block {
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+} */
+
+/* =============================================================== */
+
+/* .block {
+  animation: move-block 1s .3s infinite alternate,
+    color-block 3s .3s infinite alternate;
+
+} */
+/* animation-name: ; */
+/* animation-duration: ; */
+/* animation-iteration-count: infinite; */
+/* animation-direction: alternate-reverse; */
+/* animation-delay: ; */
+/* animation-fill-mode: forwards; */
+/* animation-timing-function: ; */
+/* animation-timing-function: linear; */
+
+
+
+
+
+/* @keyframes move-block {
+  0% {
+    background-color: #fff;
+  }
+
+
+
+  100% {
+    background-color: #c24f4f;
+  }
+}
+
+@keyframes color-block {
+  0% {
+    left: 0%;
+  }
+  50% {
+    border-radius: 50%;
+  }
+
+  100% {
+    left: calc(100% - 200px);
+  }
+} */
+/* ================================================================== */
+
+
+body {
+  background-color: #1e1e20;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 50px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 800px;
+  height: 800px;
+  background-color: #444444;
+  box-shadow: 0px 0 95px #dbd4b4;
+  border-radius: 10px;
+  border: 1px;
+}
+
+.block {
+  background-color: #d7c7eb;
+  box-shadow: 0px 0px 100px 30px #bcd3a9;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px groove #cae1b2;
+  position: absolute;
+}
+
+
+
+
+
+
+.block {
+  animation: move-block .5s .3s infinite alternate,
+    color-block 3s .3s infinite alternate;
+  animation-timing-function: linear;
+
+}
+
+@keyframes move-block {
+  0% {
+    top: 0%;
+    background-color: #fff;
+  }
+
+
+  100% {
+    background-color: #b8b1fa;
+    top: calc(100% - 100px);
+  
+  }
+}
+
+@keyframes color-block {
+  0% {
+    left: 0%;
+    
+  }
+
+
+  100% {
+    left: calc(100% - 100px);
+   
+    
+  }
+}
