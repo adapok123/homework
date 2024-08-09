@@ -1,0 +1,413 @@
+body {
+    background: #F5F5F5;
+    font-family: "Montserrat", "Arial", sans-serif;
+    line-height: 150%;
+    color: #25282B;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+
+
+.header-inner {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.header__nav {
+    margin-right: auto;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__item {
+    margin-right: 30px;
+    padding: 42px 0 42px;
+}
+
+.img__aroken {
+    position: absolute;
+    right: 920px;
+    top: 0;
+    bottom: 0;
+    padding: 30px 0 30px;
+}
+
+.social__net {
+    display: flex;
+}
+
+.social__network {
+    margin-left: 30px;
+}
+
+.section {
+    padding: 120px 0;
+    background: url("../img/видео.png");
+    height: 582px;
+
+}
+
+.section__title {
+    display: flex;
+    color: #f8fcff;
+    font-family: Montserrat;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 150%;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 31px;
+
+}
+
+.section-button {
+    display: flex;
+    color: #f8fcff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-button__inner {
+    margin-bottom: 15px;
+}
+
+.section__like {
+    padding: 5px 9px 0px 0px;
+
+}
+
+button {
+    color: rgb(29, 111, 182);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.margin-bottom {
+    background: #D0DCE7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 288px;
+    height: 56px;
+    left: 576px;
+    right: 576px;
+    top: 406px;
+    bottom: 120px;
+    border-radius: 100px;
+    padding: 18px 30px;
+    max-width: 320px;
+    display: flex;
+    justify-content: center;
+    margin-top: 39px;
+    transition: .3s;
+}
+
+
+button:hover {
+    background: #83ADD3;
+    color: #f8fcff;
+}
+
+
+.gallery__nav {
+    position: relative;
+    
+    box-sizing: border-box;
+    border: 2px solid rgb(208, 220, 231);
+    width: 282px;
+    height: 1170px;
+    top: 120px;
+
+}
+
+
+
+.nav {
+    position: relative;
+    width: 144px;
+    height: 299px;
+    left: 30px;
+    right: 108px;
+    top: 30px;
+    bottom: 841px;
+}
+
+.nav__item {
+    margin-top: 20px;
+}
+
+.img__1__pic-1 {
+    display: grid;
+    width: 384px;
+    height: 384px;
+    transition: 0s ease;
+
+}
+
+.img__1__pic-1:hover span {
+    opacity: 1;
+    transition: 1s ease;
+}
+
+.img__1__pic-2 {
+    width: 180px;
+    height: 180px;
+
+}
+
+
+
+.img__1 {
+    display: grid;
+    grid-template: repeat(2, 384px) / repeat(8, 384px);
+    margin: -1050px 0px 0px 408px;
+    gap: 24px;
+
+
+
+
+}
+
+
+
+.img__1--thumb-3 {
+    position: relative;
+    margin: 204px 0px 0px -408px;
+
+
+}
+
+
+.img__1--thumb-4 {
+    position: relative;
+    margin: 204px 0px 0px -612px;
+}
+
+.img__1--thumb-5 {
+    position: relative;
+    margin: 0px 0px 0px -1020px;
+}
+
+.img__1--thumb-6 {
+    position: relative;
+    margin: 612px 0px 0px -2038px
+}
+
+.img__1--thumb-7 {
+    position: relative;
+    margin: 612px 0px 0px -2243px
+}
+
+.img__1--thumb-8 {
+    position: relative;
+    margin: 408px 0px 0px -2652px;
+
+
+}
+
+.image-link {
+    width: 100%;
+    height: auto;
+    border: none;
+
+}
+
+
+
+
+.link-1 {
+    display: block;
+    color: #f8fcff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 103px;
+    text-align: center;
+    transform: rotate(0.00deg) translate(0px, -100%);
+    background: #1d6fb6b3;
+
+
+}
+
+.link-1 {
+    transition: 1s ease;
+    height: 0%;
+    opacity: 0;
+}
+
+.image-link:hover .link-1 {
+    opacity: 1;
+    height: 27%;
+}
+
+.link-2 {
+    display: block;
+    color: #f8fcff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    width: 180px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    transform: rotate(0.00deg) translate(0px, -100%);
+    background: #1D6FB6B3;
+}
+
+.link--1 {
+    position: relative;
+    margin: 0px 0px 0px -408px;
+}
+
+.link--2 {
+    position: relative;
+    margin: 0px 0px 0px -612px;
+}
+
+.link--3 {
+    position: relative;
+    margin: 0px 0px 0px -1020px;
+}
+
+.link--4 {
+    position: relative;
+    margin: 0px 0px 0px -2038px;
+}
+
+.link--5 {
+    position: relative;
+    margin: 0px 0px 0px -2243px;
+}
+
+.link--6 {
+    position: relative;
+    margin: 0px 0px 0px -2652px;
+}
+
+.link-2 {
+    transition: .7s ease;
+    height: 0%;
+    opacity: 0;
+}
+
+.image-link:hover .link-2 {
+    opacity: 1;
+    height: 13.5%;
+}
+
+.img__2 {
+    display: grid;
+    width: 792px;
+    height: 1110px;
+    margin: 120px 0px 0px 408px;
+    column-gap: 50px;
+}
+
+
+
+
+.img__2-card-list {
+    display: grid;
+    width: 384px;
+    height: 354px;
+    box-sizing: border-box;
+    border: 1px solid rgb(208, 220, 231);
+    align-content: space-evenly;
+    justify-items: center;
+
+}
+
+.card__product-1 {
+    display: grid;
+    grid-template: 384px 354px / repeat(2, 1fr);
+    gap: 24px;
+}
+
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 30px 18px 30px;
+    width: 148px;
+    height: 56px;
+    border-radius: 100px 100px 100px 100px;
+    background: #f8fcff;
+    color: rgb(29, 111, 182);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    margin: -208px 0px 0px -246px;
+}
+
+.buttan-one,
+.buttan-two {
+    animation: move-block 2s infinite;
+
+}
+
+
+
+
+@keyframes move-block {
+    0% {
+        width: 148px;
+        transform: translateX(8px);
+    }
+
+
+    100% {
+        width: 165px;
+        transform: translateX(17px);
+    }
+}
+
+
+.footer {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    top: 2952px;
+    background: #788088;
+
+}
+
+.footer-inner {
+    display: flex;
+    width: 182px;
+    height: 19px;
+    color: #f8fcff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.Vector {
+    margin: 0px 10px;
+    width: 20px;
+    height: 20px; 
+}
