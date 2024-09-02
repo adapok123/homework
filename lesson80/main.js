@@ -31,21 +31,22 @@
 // }
 
 
-let i = 0
+// let i = 0
 
-while (i < 12) {
-	i = i + 2
-	console.log(i)
-}
+// while (i < 12) {
+// 	i = i + 2
+// 	console.log(i)
+// }
 
 
 // for (let i = 10; i >= 1; i = i - 1) {
 // 	console.log(`Пройден ${i} круг`)
 // }
 
-// let i = 11
+let i = 10;
 
-// while (i > 1) {
-// 	i = i - 1
-//     console.log(i)
-// }
+do {
+    console.log(i);
+    i--;
+} while (i > 0)
+
