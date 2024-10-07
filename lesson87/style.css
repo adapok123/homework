@@ -1,0 +1,27 @@
+ #slider {
+      width: 400px;
+      margin: 20px auto;
+      position: relative;
+    }
+
+    #slider img {
+      width: 100%;
+    }
+
+    #prev, #next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+
+    #prev {
+      left: 10px;
+    }
+
+    #next {
+      right: 10px;
+    }
