@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Вёрстка макета финал</title>
+	<link href="css/swiper-bundle.min.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="body">
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<nav class="nav">
+						<ul class="nav__list">
+							<li class="nav__item">
+								<a class="nav__link" href="#">о компании</a>
+							</li>
+							<li class="nav__item">
+								<a class="nav__link" href="#">вакансии</a>
+							</li>
+						</ul>
+					</nav>
+					<a class="header__logo" href="#">
+						<img src="img/logos/logo.svg" alt="Логотип компании" />
+					</a>
+					<div class="header__button button">
+						<a href="#">Начать играть</a>
+					</div>
+					<a class="burger-icon" href="#">
+						<span></span>
+					</a>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="hero-section">
+				<div class="container">
+					<div class="hero-section__inner">
+						<div class="hero-section__cool">
+							<h class="hero-section__title title">
+								<span class="title__best">Лучшие</span> игры со всего мира
+
+							</h>
+							<p class="hero-section__text">
+								Каждую пятницу новая порция.
+								<br> Подписка за <a href="#">399 ₽</a>
+								в месяц
+							</p>
+							<div class="hero-section__img">
+								<img class="img1" src="img/icon/blue-smile.svg" alt="синее приведение" />
+								<img class="img2" src="img/img/jupiter.png" alt="Юпитер" />
+								<img class="img3" src="img/img/yellow-smile.svg" alt="Жёлтый смайл" />
+							</div>
+						</div>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<form class="hero-section__contact" action="/submit-form" method="post">
+							<label class="hero-section__form-label label" for="emailInput">
+								<input class="contact__input" type="email" id="emailInput"
+									placeholder="name@example.com" />
+								<span id="my-text">Введите email чтобы войти в аккаунт или создать новый</span>
+								<button class="hero-section__button contact__input-button label-button" type="submit">
+									<img class="label-button__img" src="img/icon/mail.svg" alt="кнопка email" />
+								</button>
+							</label>
+						</form>
+						<ul class="games">
+							<li class="games__item">
+								<div class="games__item-img games__item-img--animated">
+									<a href="#">
+										<img src="img/img/piggy-mini.jpeg" alt="Свинтус">
+									</a>
+								</div>
+								<h6 class="games__item-title">
+									Свинтус NEON
+								</h6>
+								<p class="games__item-text">
+									Весёлая и быстрая карточная игра для любой компании
+								</p>
+							</li>
+							<li class="games__item">
+								<div class="games__item-img games__item-img--animated">
+									<a href="#">
+										<img src="img/img/quiz.jpeg" alt="игра">
+									</a>
+								</div>
+								<h6 class="games__item-title">
+									Квиз Логика
+								</h6>
+								<p class="games__item-text">
+									Настольное развлечение для детей и взрослых
+								</p>
+							</li>
+							<li class="games__item">
+								<div class="games__item-img games__item-img--animated">
+									<a href="#">
+										<img src="img/img/truth-dare.jpeg" alt="игра">
+									</a>
+								</div>
+								<h6 class="games__item-title">
+									Правда или действие
+								</h6>
+								<p class="games__item-text">
+									Всё будет основано только на вашей жизни и фактах из неё
+								</p>
+							</li>
+							<li class="games__item">
+								<div class="games__item-img games__item-img--animated">
+									<a href="#">
+										<img src="img/img/Imaginarium.jpeg" alt="игра">
+									</a>
+								</div>
+								<h6 class="games__item-title">
+									Имаджинариум
+								</h6>
+								<p class="games__item-text">
+									Вам понадобится вся ваша фантазия и эмпатия
+								</p>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</section>
+			<div class="video__section-inner">
+				<div class="container">
+					<div class="video-container show-video">
+						<video autoplay muted loop playsinline controls>
+							<source src="video/party_station (1).mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>
+			</div>
+	</div>
+
+	<section class="partystation">
+		<div class="container">
+			<div class="partystation__inner">
+				<div class="partystation__header">
+					<a class="partystation__playstation-button" href="#">
+						Играйте вместе
+					</a>
+					<h2 class="partystation__title">
+						Partystation — новый способ развлечений для любой компании
+					</h2>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="partystation-ellipse">
+		<div class="container">
+			<div class="partystation-ellipse__inner">
+				<div class=" partystation__ellipse-item ">
+					<p class="partystation__text-item partystation__ellipse-item--1">
+						Собери друзей перед экраном ТВ <br>и можно начинать вечеринку!
+						<span class="partystation__number-item">01</span>
+					</p>
+
+					<figure class="partystation__vector-item vector--1">
+						<img src="img/icon/Vector-2.svg" alt="Направление" />
+
+					</figure>
+					<figure class="partystation__img-item img-item--1">
+						<img src="img/img/Ресурс 2@4x 2.png" alt="Ресурс" />
+					</figure>
+				</div>
+				<div class=" partystation__ellipse-item ">
+
+
+					<figure class="partystation__img-item img-item--2">
+						<img src="img/img/Космонавт 2.png" alt="Космонавт" />
+					</figure>
+					<p class="partystation__text-item partystation__ellipse-item--2">
+						Подключайте смартфоны <br>к телевизору одним нажатием
+						<span class="partystation__number-item">02</span>
+					</p>
+
+
+					<figure class="partystation__vector-item vector--2">
+						<img src="img/icon/Vector-1.svg" alt="Направление" />
+					</figure>
+				</div>
+				<div class=" partystation__ellipse-item">
+					<p class="partystation__text-item partystation__ellipse-item--3">
+						Смартфоны в руках возьмут — <br>игровые контроллеры
+
+						<span class="partystation__number-item">03</span>
+					</p>
+
+					<figure class="partystation__vector-item vector--3">
+						<img src="img/icon/Vector-3.svg" alt="Направление" />
+					</figure>
+					<figure class="partystation__img-item img-item--3">
+						<img src="img/img/Космонавт1.svg" alt="Космонавт" />
+					</figure>
+					<a class="partystation__button partystation__button--button button" href="#">
+						Начать играть
+					</a>
+				</div>
+
+				<div class="partystation__vector-4">
+					<img src="img/icon/Vector-4.svg" alt="Направление">
+				</div>
+				<a class="partystation__social" href="#">
+
+					<img src="img/socials/android.svg" alt="">
+					Так же доступно <br>
+					на AndroidTV
+				</a>
+				<div class="partystation-swiper swiper">
+
+					<div class="partystation-swiper__wrapper swiper-wrapper">
+
+
+						<div class="partystation-swiper__slide swiper-slide">
+							Собери друзей перед экраном ТВ и можно начинать вечеринку!
+							<span class="partystation-swiper__number">01</span>
+							<figure class="partystation-swiper__vector swiper-vector--1">
+								<img src="img/icon/Vector-5.svg" alt="Направление" />
+							</figure>
+						</div>
+
+						<div class="partystation-swiper__slide swiper-slide">
+							Подключайте смартфоны к телевизору одним нажатием
+							<span class="partystation-swiper__number">02</span>
+							<figure class="partystation-swiper__vector swiper-vector--2">
+								<img src="img/icon/Vector-6.svg" alt="Направление" />
+							</figure>
+						</div>
+
+						<div class="partystation-swiper__slide swiper-slide">
+							Смартфоны в руках возьмут — игровые контроллеры
+							<span class="partystation-swiper__number">03</span>
+						</div>
+
+					</div>
+					<div class="partystation-swiper__pagination swiper-pagination"></div>
+				</div>
+				<div class="button__social button__social-media">
+					<h3 class="button__social-title">
+						Где хотите начать играть?
+					</h3>
+
+					<div class="social-media">
+						<div class="button__social-button button button--pk">
+							<img src="img/icon/google-1.svg" alt="">
+							<a href="#">ПК</a>
+						</div>
+						<span class="button__social-text">
+							или
+						</span>
+						<div class="button__social-button button button--android">
+							<img src="img/icon/android-1.svg" alt="">
+							<a href="#">Android TV</a>
+						</div>
+					</div>
+				</div>
+				<div class="partystation__header partystation__header--1">
+					<a class="partystation__playstation-button" href="#">
+						во что сыграем?
+					</a>
+					<h2 class="partystation__title partystation__title--1">
+						Простые правила, быстрые и интересные партии и постоянно пополняющийся каталог
+					</h2>
+				</div>
+
+				<div class="games__swiper swiper">
+					<div class="games__swiper-wrapper swiper-wrapper">
+						<div class="games__swiper-slide swiper-slide games__swiper-slide--1">
+							<span class="games-title games-title--1">
+								Свинтус NEON
+							</span>
+
+							<span class="games-text games-text--1">
+								Весёлая и быстрая карточная игра для любой компании, для малого и большого количества
+								игроков
+							</span>
+							<div>
+								<a href="#slide-1">
+									<img src="img/img/piggy.jpeg" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="games__swiper-slide swiper-slide games__swiper-slide--2">
+							<a href="#slide-2">
+								<img src="img/img/mafia.jpeg" alt="">
+							</a>
+						</div>
+
+						<div class="games__swiper-slide swiper-slide games__swiper-slide--3">
+
+							<a href="#slide-2">
+								<img src="img/img/piggy.jpeg" alt="">
+							</a>
+						</div>
+						<div class="games__swiper-slide swiper-slide games__swiper-slide--4">
+							<a href="#slide-3">
+								<img src="img/img/mafia.jpeg" alt="">
+							</a>
+						</div>
+
+					</div>
+
+					<div class="games__swiper-scrollbar swiper-scrollbar"></div>
+					<div class="games__button-next ">
+						<img src="img/icon/Vector-7.svg" alt="">
+					</div>
+
+				</div>
+				<div class="games__media swiper">
+					<div class="games__media-wrapper swiper-wrapper">
+						<div class="games__media-slide swiper-slide">
+							<img src="img/img/piggy.png" alt="">
+							<div class="games__media-block">
+								<span class="games-title games-title--1">
+									Свинтус NEON
+								</span>
+
+								<span class="games-text games-text--1">
+									Весёлая и быстрая карточная игра для любой компании, для малого и большого
+									количества
+									игроков
+								</span>
+							</div>
+						</div>
+
+						<div class="games__media-slide swiper-slide">
+							<img src="img/img/mafia.png" alt="">
+						</div>
+						<div class="games__media-slide swiper-slide">
+							<img src="img/img/piggy.png" alt="">
+						</div>
+						<div class="games__media-slide swiper-slide">
+							<img src="img/img/mafia.png" alt="">
+						</div>
+					</div>
+					<div class="games__media-button ">
+						<img src="img/icon/Vector-7.svg" alt="">
+					</div>
+					<div class="games__media-scrollbar swiper-scrollbar">
+
+					</div>
+				</div>
+
+			</div>
+			<div class="games__swiper2 swiper">
+
+				<div class="games__swiper-wrapper2 swiper-wrapper">
+					<div class="games__swiper-slide2 swiper-slide thumbnails">
+						<div class="games__swiper-img thumbnail" data-index="0">
+							<span class="games__swiper-title games__swiper-title--1">
+								Свинтус NEON
+								<br>
+								<span class="games__swiper-text games__swiper-text--1">
+									Хрю-киберпанк наступил
+								</span>
+							</span>
+							<img src="img/img/slider_arrow.jpeg" alt="">
+						</div>
+					</div>
+
+					<div class="games__swiper-slide2 swiper-slide thumbnails">
+						<div class="games__swiper-img thumbnail" data-index="1">
+							<span class="games__swiper-title games__swiper-title--1">
+								Mafia
+								<br>
+								<span class="games__swiper-text games__swiper-text--1">
+									Психологическая игра
+								</span>
+							</span>
+							<img src="img/img/slider_arrow-2.jpeg" alt="">
+						</div>
+					</div>
+					<div class="games__swiper-slide2 swiper-slide">
+						<div class="games__swiper-img">
+							<span class="games__swiper-title games__swiper-title--1">
+								Имаджинариум
+								<br>
+								<span class="games__swiper-text games__swiper-text--1">
+									Карты и ассоциации
+								</span>
+							</span>
+							<img src="img/img/slider_arrow-3.jpeg" alt="">
+						</div>
+					</div>
+					<div class="games__swiper-slide2 swiper-slide">
+						<div class="games__swiper-img">
+							<span class="games__swiper-title games__swiper-title--1">
+								Данетки
+								<br>
+								<span class="games__swiper-text games__swiper-text--1">
+									Игра в загадки
+								</span>
+							</span>
+							<img src="img/img/slider_arrow-4.jpeg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="games__swiper2-pagination"></div>
+				<div class="games__swiper2-prev swiper-button-prev"></div>
+				<div class="games__swiper2-next swiper-button-next"></div>
+			</div>
+		</div>
+	</section>
+	<section class="section__gallery gallery">
+		<div class="container">
+			<div class="gallery__inner">
+				<div class="gallery__info">
+					<h2 class="gallery__title title">
+						Новинки
+					</h2>
+				</div>
+				<div class="gallery__nav">
+					<button class="gallery__prev" type="button">
+						<img src="img/icon/Vector-lift.svg" alt="">
+					</button>
+
+					<button class="gallery__next" type="button">
+						<img src="img/icon/Vector-right.svg" alt="">
+					</button>
+
+				</div>
+			</div>
+			<div class="gallery__swiper swiper">
+				<div class="gallery__swiper-wrapper swiper-wrapper">
+					<a class="gallery__swiper-slide swiper-slide" href="#">
+						<img src="img/img/interloper.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide swiper-slide" href="#">
+						<img src="img/img/truth-dare.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide swiper-slide" href="#">
+						<img src="img/img/piggy-mini.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide swiper-slide" href="#">
+						<img src="img/img/logic-horse.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide swiper-slide" href="#">
+						<img src="img/img/mafia-mini.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide swiper-slide" href="#">
+						<img src="img/img/interloper.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide swiper-slide" href="#">
+						<img src="img/img/truth-dare.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide swiper-slide" href="#">
+						<img src="img/img/piggy-mini.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide swiper-slide" href="#">
+						<img src="img/img/logic-horse.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide swiper-slide" href="#">
+						<img src="img/img/mafia-mini.jpeg" alt="">
+					</a>
+				</div>
+
+			</div>
+			<div class="gallery__inner">
+				<div class="gallery__info">
+					<h2 class="gallery__title title">
+						Для всей семьи
+					</h2>
+				</div>
+				<div class="gallery__nav">
+					<button class="gallery__prev2" type="button">
+						<img src="img/icon/Vector-lift.svg" alt="">
+					</button>
+
+					<button class="gallery__next2" type="button">
+						<img src="img/icon/Vector-right.svg" alt="">
+					</button>
+
+				</div>
+			</div>
+			<div class="gallery__swiper2 swiper">
+				<div class="gallery__swiper-wrapper2 swiper-wrapper">
+					<a class="gallery__swiper-slide2 swiper-slide" href="#">
+						<img src="img/img/yes-food.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide2 swiper-slide" href="#">
+						<img src="img/img/party-qurs.jpeg" alt="">
+					</a>
+
+					<a class="gallery__swiper-slide2 swiper-slide" href="#">
+						<img src="img/img/quiz.jpeg" alt="">
+					</a>
+
+					<a class="gallery__swiper-slide2 swiper-slide" href="#">
+						<img src="img/img/Imaginarium.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide2 swiper-slide" href="#">
+						<img src="img/img/truth-dare.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide2 swiper-slide" href="#">
+						<img src="img/img/yes-food.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide2 swiper-slide" href="#">
+						<img src="img/img/party-qurs.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide2 swiper-slide" href="#">
+						<img src="img/img/quiz.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide2 swiper-slide" href="#">
+						<img src="img/img/Imaginarium.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide2 swiper-slide" href="#">
+						<img src="img/img/truth-dare.jpeg" alt="">
+					</a>
+				</div>
+
+			</div>
+			<div class="gallery__inner">
+				<div class="gallery__info">
+					<h2 class="gallery__title title">
+						Для самых умных
+					</h2>
+				</div>
+				<div class="gallery__nav">
+					<button class="gallery__prev3" type="button">
+						<img src="img/icon/Vector-lift.svg" alt="">
+					</button>
+
+					<button class="gallery__next3" type="button">
+						<img src="img/icon/Vector-right.svg" alt="">
+					</button>
+
+				</div>
+			</div>
+			<div class="gallery__swiper3 swiper ">
+				<div class="gallery__swiper-wrapper3 swiper-wrapper">
+					<a class="gallery__swiper-slide3 swiper-slide" href="#">
+						<img src="img/img/mafia-quiz.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide3 swiper-slide" href="#">
+						<img src="img/img/logic-horse.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide3 swiper-slide" href="#">
+						<img src="img/img/mozgo.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide3 swiper-slide" href="#">
+						<img src="img/img/crocodile.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide2 swiper-slide" href="#">
+						<img src="img/img/yes-food.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide3 swiper-slide" href="#">
+						<img src="img/img/mafia-quiz.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide3 swiper-slide" href="#">
+						<img src="img/img/logic-horse.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide3 swiper-slide" href="#">
+						<img src="img/img/mozgo.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide3 swiper-slide" href="#">
+						<img src="img/img/crocodile.jpeg" alt="">
+					</a>
+					<a class="gallery__swiper-slide2 swiper-slide" href="#">
+						<img src="img/img/yes-food.jpeg" alt="">
+					</a>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+	<section class="gallery-play">
+		<div class="container">
+			<div class="gallery-play__inner">
+				<div class="gallery-play__info">
+					<a class="gallery__payment-button partystation__playstation-button" href="#">
+						Играйте бесплатно, купите потом
+					</a>
+
+					<div class="payment">
+						<div class="payment__inner">
+							<a class="payment__for-free" href="#">
+								<div class="payment__for-free-img">
+									<img src="img/icon/Spruce.svg" alt="Елка">
+								</div>
+								<p class="payment__for-free-title">
+									Бесплатно
+								</p>
+								<p class="payment__for-free-text">
+									<span>Базовая версия</span> <br>с ограниченным доступом
+								</p>
+
+							</a>
+							<a class="payment__paid" href="#">
+								<div class="payment__paid-img">
+									<img src="img/icon/Vectorst.svg" alt="Звезда">
+								</div>
+								<p class="payment__paid-title">
+									399 руб/месяц
+								</p>
+								<p class="payment__paid-text">
+									<span>Премиум версия</span> <br> с полным доступом
+								</p>
+							</a>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+	<section class="platform-capabilities">
+		<div class="container">
+			<div class="platform-capabilities__inner">
+				<div class="platform-capabilities__info">
+					<div class="platform-capabilities__block">
+						<a class="platform-capabilities__button partystation__playstation-button" href="#">
+							Возможности платформы
+						</a>
+						<span class="platform-capabilities__number">01</span>
+						<p class="platform-capabilities__title">
+							Можно играть <br>на <span>Smart-tv</span> или <span>PC</span>
+						</p>
+						<p class="platform-capabilities__text">
+							Собери друзей перед экраном ТВ <br> и можно начинать вечеринку!
+						</p>
+						<div class="platform-capabilities__start-playing button">
+							<a href="#">Начать играть</a>
+						</div>
+
+					</div>
+				</div>
+				<div class="platform-capabilities__img">
+					<div class="platform-capabilities__laptop">
+						<img src="img/img/Mask group.png" alt="ноутбук">
+					</div>
+				</div>
+			</div>
+			<div class="platform-capabilities__inner ">
+				<div class="platform-capabilities__info">
+					<div class="platform-capabilities__block platform-capabilities__block--mobail">
+
+						<span class="platform-capabilities__number">02</span>
+						<p class="platform-capabilities__title">
+							Мобильный телефон <br>в качестве <span>контроллера</span>
+						</p>
+						<p class="platform-capabilities__text">
+							с их помощью можно выбирать <br> правильные ответы, управлять <br>событиями на большом
+							экране
+						</p>
+						<div class="platform-capabilities__start-playing button">
+							<a href="#">Начать играть</a>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="platform-capabilities__img">
+					<div class="platform-capabilities__laptop  platform-capabilities__mobail">
+						<img src="img/img/Maskgroup2.png" alt="ноутбук">
+					</div>
+					<div class="platform-capabilities__cube">
+						<img src="img/img/Group 1767.png" alt="">
+					</div>
+				</div>
+
+			</div>
+			<div class="platform-capabilities__inner ">
+				<div class="platform-capabilities__info">
+					<div class="platform-capabilities__block platform-capabilities__block--mobail">
+
+						<span class="platform-capabilities__number">03</span>
+						<p class="platform-capabilities__title">
+							<span>Новые</span> игры <br>каждую пятницу
+						</p>
+						<p class="platform-capabilities__text platform-capabilities__text--1">
+							Простые правила, быстрые <br>и интересные партии
+						</p>
+						<div class="platform-capabilities__start-playing button">
+							<a href="#">Начать играть</a>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="platform-capabilities__img">
+					<div class="platform-capabilities__laptop  platform-capabilities__mobail">
+						<img src="img/img/Maskgroup3.png" alt="ноутбук">
+					</div>
+				</div>
+			</div>
+			<div class="platform-capabilities__swiper swiper">
+
+				<div class="platform-capabilities__swiper-wrapper swiper-wrapper">
+
+					<div
+						class="platform-capabilities__swiper-slide platform-capabilities__swiper-slide--img swiper-slide">
+
+						<a class="platform-capabilities__button partystation__playstation-button" href="#">
+							Возможности платформы
+						</a>
+
+						<div class="platform-capabilities__block-swiper">
+							<span class="platform-capabilities__number  platform-capabilities__number--1">01</span>
+							<p class="platform-capabilities__title platform-capabilities__title--1">
+								Можно играть <br>на <span>Smart-tv</span> или <span>PC</span>
+							</p>
+							<p class="platform-capabilities__text platform-capabilities__text--1">
+								Собери друзей перед экраном ТВ <br> и можно начинать вечеринку!
+							</p>
+							<div
+								class="platform-capabilities__start-playing platform-capabilities__start-playing--1 button">
+								<a href="#">Начать играть</a>
+							</div>
+						</div>
+						<img src="img/img/laptor-media.png" alt="">
+					</div>
+
+					<div
+						class="platform-capabilities__swiper-slide swiper-slide platform-capabilities__swiper-slide--1">
+						<div class="platform-capabilities__block-swiper">
+							<span class="platform-capabilities__number  platform-capabilities__number--1">02</span>
+							<p class="platform-capabilities__title platform-capabilities__title--1">
+								Мобильный телефон <br>в качестве <span>контроллера</span>
+							</p>
+							<p
+								class="platform-capabilities__text platform-capabilities__text--1 platform-capabilities__text--2">
+								с их помощью можно выбирать <br> правильные ответы, управлять <br>событиями на большом
+								экране
+							</p>
+							<div
+								class="platform-capabilities__start-playing button platform-capabilities__start-playing--1">
+								<a href="#">Начать играть</a>
+							</div>
+						</div>
+						<img src="img/img/Mobail-media.png" alt="">
+					</div>
+					<div
+						class="platform-capabilities__swiper-slide swiper-slide platform-capabilities__swiper-slide--img platform-capabilities__swiper-slide--1">
+						<div class="platform-capabilities__block-swiper">
+							<span class="platform-capabilities__number  platform-capabilities__number--1">03</span>
+							<p class="platform-capabilities__title platform-capabilities__title--1">
+								Можно играть <br>на <span>Smart-tv</span> или <span>PC</span>
+							</p>
+							<p class="platform-capabilities__text platform-capabilities__text--1">
+								Собери друзей перед экраном ТВ <br> и можно начинать вечеринку!
+							</p>
+							<div
+								class="platform-capabilities__start-playing button platform-capabilities__start-playing--1">
+								<a href="#">Начать играть</a>
+							</div>
+						</div>
+						<img src="img/img/laptor-media.png" alt="">
+					</div>
+					<div
+						class="platform-capabilities__swiper-slide swiper-slide  platform-capabilities__swiper-slide--1">
+						<div class="platform-capabilities__block-swiper">
+							<span class="platform-capabilities__number platform-capabilities__number--1">04</span>
+							<p class="platform-capabilities__title platform-capabilities__title--1">
+								Мобильный телефон <br>в качестве <span>контроллера</span>
+							</p>
+							<p
+								class="platform-capabilities__text platform-capabilities__text--1 platform-capabilities__text--2">
+								с их помощью можно выбирать <br> правильные ответы, управлять <br>событиями на большом
+								экране
+							</p>
+							<div
+								class="platform-capabilities__start-playing button platform-capabilities__start-playing--1">
+								<a href="#">Начать играть</a>
+							</div>
+						</div>
+						<img src="img/img/Mobail-media.png" alt="">
+					</div>
+					...
+				</div>
+
+				<div class="platform-capabilities__pagination  swiper-pagination"></div>
+			</div>
+
+
+
+			<div class="testimonials__slider swiper">
+
+				<div class="testimonials__wrapper swiper-wrapper">
+					<div class="testimonials__slide swiper-slide">
+						<blockquote class="testimonials__quote">
+							<img src="img/icon/big-quote.svg" alt="кавычка">
+							Команда, опыт, любовь к прогрессу, экспертиза, а еще business-first подход: мы не «продаем
+							решения», а создаем стратегию
+							развития вместе с заказчиком, где важен результат, а не набор технологий.
+						</blockquote>
+						<div class="testimonials__img">
+							Антон Кириленко
+							<img src="img/img/manager-2.jpeg" alt="">
+						</div>
+
+					</div>
+					<div class="testimonials__slide swiper-slide">
+						<blockquote class="testimonials__quote">
+							<img src="img/icon/big-quote.svg" alt="кавычка">
+							Команда, опыт, любовь к прогрессу, экспертиза, а еще business-first подход: мы не «продаем
+							решения», а создаем стратегию
+							развития вместе с заказчиком, где важен результат, а не набор технологий.
+						</blockquote>
+						<div class="testimonials__img">
+							Антон Кириленко
+							<img src="img/img/manager-2.jpeg" alt="">
+						</div>
+
+					</div>
+					<div class="testimonials__slide swiper-slide">
+						<blockquote class="testimonials__quote">
+							<img src="img/icon/big-quote.svg" alt="кавычка">
+							Команда, опыт, любовь к прогрессу, экспертиза, а еще business-first подход: мы не «продаем
+							решения», а создаем стратегию
+							развития вместе с заказчиком, где важен результат, а не набор технологий.
+						</blockquote>
+						<div class="testimonials__img">
+							Антон Кириленко
+							<img src="img/img/manager-2.jpeg" alt="">
+						</div>
+
+					</div>
+
+
+				</div>
+				<div class="testimonials__nav">
+					<a class="testimonials__prev" type="button">
+						<img src="img/icon/Vector-lift.svg" alt="">
+					</a>
+
+					<a class="testimonials__next" type="button">
+						<img src="img/icon/Vector-right.svg" alt="">
+					</a>
+
+				</div>
+				<div class="testimonials__pagination swiper-pagination">
+
+				</div>
+
+
+
+			</div>
+		</div>
+
+	</section>
+
+	<section class="program-questions">
+		<div class="container">
+			<a class="partystation__playstation-button program-questions__button" href="#">
+				FAQ
+			</a>
+			<div class="program-questions__inner">
+				<ul class="accordion-list">
+					<li class="accordion-list__item accordion-list__item--1">
+						<div class="accordion-list__item-control">
+							<h3 class="accordion-list__control-title">
+								Что такое PartyStation?
+							</h3>
+							<a class="accordion-list__control" href="#">
+								<div class="accordion-list__control-icon">
+									<img class="accordion__icon" src="img/icon/plus.svg" alt="plus">
+								</div>
+							</a>
+						</div>
+						<div class="accordion-list__content">
+							<div class="accordion-content">
+								<div class="accordion-content__col">
+									<h3 class="accordion-content__title">
+										Как играть в PartyStation?
+									</h3>
+									<p class="accordion-content__text">
+										Partystation - это как ваш любимый онлайн-кинотеатр, но с играми. Это платформа,
+										на которой представлены игры от лучших гейм-дизайнеров. Игроки собираются перед
+										одним экраном и используют мобильные телефоны в качестве контроллеров.
+									</p>
+									<ol class="accordion-content__list">
+										<li class="accordion-content__item">
+											Откройте сайт в браузере на компьютере или смарт-тв (или запустите
+											приложение на приставке);
+										</li>
+										<li class="accordion-content__item">
+											Нажмите «Начать играть», отсканируйте камерой мобильного телефона QR-код с
+											экрана (или введите код в поле
+											ввода);
+										</li>
+										<li class="accordion-content__item">
+											Введите свое имя;
+										</li>
+										<li class="accordion-content__item">
+											Все остальные игроки тоже сканируют QR-код и подключаются к игре;
+										</li>
+										<li class="accordion-content__item">
+											Жмите «Играть», выбирайте игру и развлекайтесь.
+										</li>
+									</ol>
+								</div>
+								<a class="accordion-list__control accordion-list__control--1" href="#">
+									<div class="accordion-list__control-icon">
+										<img class="accordion__icon" src="img/icon/minus.svg" alt="plus">
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="accordion-list__item accordion-list__item--1">
+						<div class="accordion-list__item-control">
+							<h3 class="accordion-list__control-title">
+								Какие игры есть в PartyStation?
+							</h3>
+							<a class="accordion-list__control" href="#">
+								<div class="accordion-list__control-icon">
+									<img class="accordion__icon" src="img/icon/plus.svg" alt="plus">
+								</div>
+							</a>
+						</div>
+						<div class="accordion-list__content">
+							<div class="accordion-content">
+								<div class="accordion-content__col">
+									<h3 class="accordion-content__title">
+										Как играть в PartyStation?
+									</h3>
+									<p class="accordion-content__text">
+										Partystation - это как ваш любимый онлайн-кинотеатр, но с играми. Это платформа,
+										на которой представлены игры от лучших гейм-дизайнеров. Игроки собираются перед
+										одним экраном и используют мобильные телефоны в качестве контроллеров.
+									</p>
+									<ol class="accordion-content__list">
+										<li class="accordion-content__item">
+											Откройте сайт в браузере на компьютере или смарт-тв (или запустите
+											приложение на приставке);
+										</li>
+										<li class="accordion-content__item">
+											Нажмите «Начать играть», отсканируйте камерой мобильного телефона QR-код с
+											экрана (или введите код в поле
+											ввода);
+										</li>
+										<li class="accordion-content__item">
+											Введите свое имя;
+										</li>
+										<li class="accordion-content__item">
+											Все остальные игроки тоже сканируют QR-код и подключаются к игре;
+										</li>
+										<li class="accordion-content__item">
+											Жмите «Играть», выбирайте игру и развлекайтесь.
+										</li>
+									</ol>
+								</div>
+								<a class="accordion-list__control accordion-list__control--1" href="#">
+									<div class="accordion-list__control-icon">
+										<img class="accordion__icon" src="img/icon/minus.svg" alt="plus">
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="accordion-list__item accordion-list__item--1">
+						<div class="accordion-list__item-control">
+							<h3 class="accordion-list__control-title">
+								Как играть в PartyStation?
+							</h3>
+							<a class="accordion-list__control" href="#">
+								<div class="accordion-list__control-icon">
+									<img class="accordion__icon" src="img/icon/plus.svg" alt="plus">
+								</div>
+							</a>
+						</div>
+						<div class="accordion-list__content">
+							<div class="accordion-content">
+								<div class="accordion-content__col">
+									<h3 class="accordion-content__title">
+										Как играть в PartyStation?
+									</h3>
+									<p class="accordion-content__text">
+										Partystation - это как ваш любимый онлайн-кинотеатр, но с играми. Это платформа,
+										на которой представлены игры от лучших гейм-дизайнеров. Игроки собираются перед
+										одним экраном и используют мобильные телефоны в качестве контроллеров.
+									</p>
+									<ol class="accordion-content__list">
+										<li class="accordion-content__item">
+											Откройте сайт в браузере на компьютере или смарт-тв (или запустите
+											приложение на приставке);
+										</li>
+										<li class="accordion-content__item">
+											Нажмите «Начать играть», отсканируйте камерой мобильного телефона QR-код с
+											экрана (или введите код в поле
+											ввода);
+										</li>
+										<li class="accordion-content__item">
+											Введите свое имя;
+										</li>
+										<li class="accordion-content__item">
+											Все остальные игроки тоже сканируют QR-код и подключаются к игре;
+										</li>
+										<li class="accordion-content__item">
+											Жмите «Играть», выбирайте игру и развлекайтесь.
+										</li>
+									</ol>
+								</div>
+								<a class="accordion-list__control accordion-list__control--1" href="#">
+									<div class="accordion-list__control-icon">
+										<img class="accordion__icon" src="img/icon/minus.svg" alt="plus">
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="accordion-list__item accordion-list__item--1">
+						<div class="accordion-list__item-control">
+							<h3 class="accordion-list__control-title">
+								Какие устройства поддерживаются в PatyStation?
+							</h3>
+							<a class="accordion-list__control" href="#">
+								<div class="accordion-list__control-icon">
+									<img class="accordion__icon" src="img/icon/plus.svg" alt="plus">
+								</div>
+							</a>
+						</div>
+						<div class="accordion-list__content">
+							<div class="accordion-content">
+								<div class="accordion-content__col">
+									<h3 class="accordion-content__title">
+										Как играть в PartyStation?
+									</h3>
+									<p class="accordion-content__text">
+										Partystation - это как ваш любимый онлайн-кинотеатр, но с играми. Это платформа,
+										на которой представлены игры от лучших гейм-дизайнеров. Игроки собираются перед
+										одним экраном и используют мобильные телефоны в качестве контроллеров.
+									</p>
+									<ol class="accordion-content__list">
+										<li class="accordion-content__item">
+											Откройте сайт в браузере на компьютере или смарт-тв (или запустите
+											приложение на приставке);
+										</li>
+										<li class="accordion-content__item">
+											Нажмите «Начать играть», отсканируйте камерой мобильного телефона QR-код с
+											экрана (или введите код в поле
+											ввода);
+										</li>
+										<li class="accordion-content__item">
+											Введите свое имя;
+										</li>
+										<li class="accordion-content__item">
+											Все остальные игроки тоже сканируют QR-код и подключаются к игре;
+										</li>
+										<li class="accordion-content__item">
+											Жмите «Играть», выбирайте игру и развлекайтесь.
+										</li>
+									</ol>
+								</div>
+								<a class="accordion-list__control accordion-list__control--1" href="#">
+									<div class="accordion-list__control-icon">
+										<img class="accordion__icon" src="img/icon/minus.svg" alt="plus">
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<li class="accordion-list__item accordion-list__item--1">
+						<div class="accordion-list__item-control">
+							<h3 class="accordion-list__control-title">
+								Сколько это стоит?
+							</h3>
+							<a class="accordion-list__control" href="#">
+								<div class="accordion-list__control-icon">
+									<img class="accordion__icon" src="img/icon/plus.svg" alt="plus">
+								</div>
+							</a>
+						</div>
+						<div class="accordion-list__content">
+							<div class="accordion-content">
+								<div class="accordion-content__col">
+									<h3 class="accordion-content__title">
+										Как играть в PartyStation?
+									</h3>
+									<p class="accordion-content__text">
+										Partystation - это как ваш любимый онлайн-кинотеатр, но с играми. Это платформа,
+										на которой представлены игры от лучших гейм-дизайнеров. Игроки собираются перед
+										одним экраном и используют мобильные телефоны в качестве контроллеров.
+									</p>
+									<ol class="accordion-content__list">
+										<li class="accordion-content__item">
+											Откройте сайт в браузере на компьютере или смарт-тв (или запустите
+											приложение на приставке);
+										</li>
+										<li class="accordion-content__item">
+											Нажмите «Начать играть», отсканируйте камерой мобильного телефона QR-код с
+											экрана (или введите код в поле
+											ввода);
+										</li>
+										<li class="accordion-content__item">
+											Введите свое имя;
+										</li>
+										<li class="accordion-content__item">
+											Все остальные игроки тоже сканируют QR-код и подключаются к игре;
+										</li>
+										<li class="accordion-content__item">
+											Жмите «Играть», выбирайте игру и развлекайтесь.
+										</li>
+									</ol>
+								</div>
+								<a class="accordion-list__control accordion-list__control--1" href="#">
+									<div class="accordion-list__control-icon">
+										<img class="accordion__icon" src="img/icon/minus.svg" alt="plus">
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+
+			</div>
+
+		</div>
+
+	</section>
+	<aside class="our-partners">
+		<div class="container">
+			<div class="our-partners__inner">
+				<a class="partystation__playstation-button our-partners__button" href="#">
+					Наши партнеры
+				</a>
+				<div class="our-partners__col">
+					<ul class="our-partners__list">
+						<li class="our-partners__item">
+							<a class="our-partners__link" href="#">
+								<img src="img/logos/GroupM.png" alt="">
+							</a>
+						</li>
+						<li class="our-partners__item">
+							<a class="our-partners__link" href="#">
+								<img src="img/logos/МТС.svg" alt="">
+							</a>
+						</li>
+						<li class="our-partners__item">
+							<a class="our-partners__link" href="#">
+								<img src="img/logos/ruda-game.svg" alt="">
+							</a>
+						</li>
+						<li class="our-partners__item">
+							<a class="our-partners__link" href="#">
+								<img src="img/logos/N.png" alt="">
+							</a>
+						</li>
+						<li class="our-partners__item">
+							<a class="our-partners__link" href="#">
+								<img src="img/logos/quiz.svg" alt="">
+							</a>
+						</li>
+						<li class="our-partners__item">
+							<a class="our-partners__link" href="#">
+								<img src="img/logos/Group 514.svg" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+			
+		</div>
+
+	</aside>
+
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<div class="footer__col">
+					<div class="footer____logo">
+						<a href="">
+							<img src="img/logos/logo2.svg" alt="">
+						</a>
+					</div>
+					<a class="footer__company" href="#">
+						ООО «Студия Валерия Комягина»
+					</a>
+				</div>
+				<div class="footer__col">
+					<nav class="footer-nav">
+						<ul class="footer-nav__list">
+							<li class="footer-nav__item">
+								<a class="footer-nav__link" href="#">
+									О компании
+								</a>
+							</li>
+							<li class="footer-nav__item">
+								<a class="footer-nav__link" href="#">
+									Вакансии
+								</a>
+							</li>
+							<li class="footer-nav__item">
+								<a class="footer-nav__link" href="#">
+									Для партнеров
+								</a>
+							</li>
+							<li class="footer-nav__item">
+								<a class="footer-nav__link" href="#">
+									Размещение рекламы
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="footer-buttons">
+						<ul class="footer-buttons__list">
+							<li class="footer-buttons__item button footer-buttons__item--1">
+								<a href="#">Служба поддержки</a>
+							</li>
+							<li class="footer-buttons__item button footer-buttons__item--2">
+								<a href="#">
+									<img src="img/socials/telegram.svg" alt="">
+								</a>
+							</li>
+							<li class="footer-buttons__item button footer-buttons__item--3">
+								<a href="#">
+									<img src="img/socials/ok.svg" alt="">
+								</a>
+							</li>
+							<li class="footer-buttons__item button footer-buttons__item--4">
+								<a href="#">
+									<img src="img/socials/youtube.svg" alt="">
+								</a>
+
+							</li>
+							<li class="footer-buttons__item button footer-buttons__item--5">
+								<a href="#">
+									<img src="img/socials/vk.svg" alt="">
+								</a>
+							</li>
+							<li class="footer-buttons__item button footer-buttons__item--6">
+								<a class="footer-buttons__item-img" href="#">
+									<div>
+										<img src="img/socials/google.svg" alt="">
+									</div>
+									<div class="footer-item__img">
+										<span>
+											<img src="img/socials/get.svg" alt="">
+										</span>
+
+										<span>
+											<img src="img/socials/GP.svg" alt="">
+										</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<a href="#" class="footer__agreement">
+						Пользовательское соглашение
+					</a>
+
+				</div>
+
+				<div class="footer__col">
+					<ul class="footer__col-address">
+						<li class="footer__col-email">
+							<a class="footer__col-mail" href="mailto:info@pstv.ru" title="Написать письмо">
+								info@pstv.ru
+							</a>
+						</li>
+						<li class="footer__col-tel">
+							<a class="footer__col-number" href="tel:+74996850043">
+								+7 (499) 685-00-43
+							</a>
+						</li>
+						<li class="footer__col-street">
+							<span>
+								к322А, Центральный пр.,<br>
+								Зеленоград, Москва,
+							</span>
+						</li>
+
+						<ul class="footer__legal">
+							<li>
+								<a class="footer__agreement--1">
+									Пользовательское соглашение
+								</a>
+							</li>
+							<li>
+								<a href="#" class="footer__confidentiality">
+									Политика конфиденциальности
+								</a>
+							</li>
+							<li>
+								<a class="footer__company--1">
+									ООО «Студия Валерия Комягина»
+								</a>
+							</li>
+						</ul>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+	</div>
+
+	<script src="js/fslightbox.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/inputmask.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

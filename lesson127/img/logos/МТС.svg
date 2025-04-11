@@ -1,0 +1,23 @@
+<svg width="83.273438" height="29.285156" viewBox="0 0 83.2734 29.2852" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_2_368_dd" x="0.000000" y="0.000000" width="22.093750" height="29.285156" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_2_368_dd)">
+		<path id="Vector" d="M11.04 0C9.57 0 7.83 1.52 6.39 4.08C4.89 6.74 4 10.03 4 12.88C4 17.06 6.17 21.28 11.04 21.28C15.91 21.28 18.09 17.06 18.09 12.88C18.09 10.03 17.19 6.74 15.7 4.08C14.25 1.52 12.51 0 11.04 0Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<path id="Vector" d="M49.09 6.27L54.03 6.27L54.03 20.14L59.31 20.14L59.31 6.27L64.24 6.27L64.24 1.13L49.09 1.13L49.09 6.27Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="Vector" d="M75.52 6.27L83.27 6.27L83.27 1.14L75.52 1.14C68.4 1.14 64.59 4.96 64.59 10.64C64.59 16.32 68.4 20.14 75.52 20.14L83.27 20.14L83.27 15.01L75.52 15.01C72.22 15.01 70.05 13.74 70.05 10.64C70.05 7.54 72.22 6.27 75.52 6.27Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="Vector" d="M38.34 1.13L35.53 12.48L32.71 1.13L23.37 1.13L23.37 20.14L28.66 20.14L28.66 4.68L32.5 20.14L38.56 20.14L42.4 4.67L42.4 20.14L47.68 20.14L47.68 1.13L38.34 1.13Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+</svg>

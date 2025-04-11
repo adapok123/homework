@@ -1,0 +1,24 @@
+<svg width="16.000000" height="16.000000" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<linearGradient x1="1.072266" y1="5.000002" x2="14.926861" y2="5.000002" id="paint_linear_209_2031_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#D93025"/>
+			<stop offset="1.000000" stop-color="#EA4335"/>
+		</linearGradient>
+		<linearGradient x1="6.906548" y1="15.892942" x2="13.833862" y2="3.894508" id="paint_linear_209_2033_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FCC934"/>
+			<stop offset="1.000000" stop-color="#FBBC04"/>
+		</linearGradient>
+		<linearGradient x1="8.865453" y1="15.500420" x2="1.938128" y2="3.501956" id="paint_linear_209_2034_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#1E8E3E"/>
+			<stop offset="1.000000" stop-color="#34A853"/>
+		</linearGradient>
+	</defs>
+	<path id="Vector" d="M12 7.99C12 10.2 10.2 11.99 8 11.99C5.79 11.99 4 10.2 4 7.99C4 5.78 5.79 3.99 8 3.99C10.2 3.99 12 5.78 12 7.99Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Vector" d="M8 4L14.92 4C14.22 2.78 13.21 1.77 12 1.07C10.78 0.36 9.4 -0.01 8 0C6.59 0 5.21 0.36 4 1.07C2.78 1.77 1.77 2.78 1.07 4L4.53 10L4.53 9.99C4.18 9.39 4 8.7 4 7.99C4 7.29 4.18 6.6 4.53 5.99C4.88 5.39 5.39 4.88 5.99 4.53C6.6 4.18 7.29 3.99 8 4Z" fill="url(#paint_linear_209_2031_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="Vector" d="M11.16 7.99C11.16 9.74 9.75 11.16 8 11.16C6.25 11.16 4.83 9.74 4.83 7.99C4.83 6.25 6.25 4.83 8 4.83C9.75 4.83 11.16 6.25 11.16 7.99Z" fill="#1A73E8" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="Vector" d="M11.46 10L8 15.99C9.4 16 10.78 15.63 12 14.92C13.21 14.22 14.22 13.21 14.92 12C15.62 10.78 15.99 9.4 15.99 8C15.99 6.59 15.62 5.21 14.92 4L7.99 4L7.99 4C8.7 4 9.39 4.18 10 4.53C10.6 4.88 11.11 5.39 11.46 6C11.81 6.6 12 7.29 12 8C12 8.7 11.81 9.39 11.46 10Z" fill="url(#paint_linear_209_2033_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="Vector" d="M4.53 10L1.07 4C0.36 5.21 0 6.59 0 8C0 9.4 0.36 10.78 1.07 12C1.77 13.21 2.78 14.22 4 14.92C5.21 15.63 6.59 16 8 15.99L11.46 10L11.46 9.99C11.11 10.6 10.6 11.11 10 11.46C9.39 11.81 8.7 12 8 12C7.29 12 6.6 11.81 5.99 11.46C5.39 11.11 4.88 10.6 4.53 10Z" fill="url(#paint_linear_209_2034_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+</svg>

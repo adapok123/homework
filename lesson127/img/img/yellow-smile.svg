@@ -1,0 +1,27 @@
+<svg width="141.525391" height="151.604980" viewBox="0 0 141.525 151.605" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_70_1370_dd" x="11.765625" y="0.000000" width="119.630859" height="148.533081" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="0"/>
+			<feGaussianBlur stdDeviation="8"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0.9451 0 0 0 0 0.4549 0 0 0 0 0.10196 0 0 0 1 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<linearGradient x1="43.390869" y1="96.154968" x2="104.790977" y2="47.176819" id="paint_linear_70_1370_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#EE6300"/>
+			<stop offset="1.000000" stop-color="#E9EE00"/>
+		</linearGradient>
+	</defs>
+	<g filter="url(#filter_70_1370_dd)">
+		<path id="Vector 37" d="M91.38 124.45C89.91 124.19 88.5 123.45 87.36 122.55C85.44 121.05 85.77 116.73 85.83 114.56C85.84 114.25 85.85 111.58 85.66 111.7C84.87 112.23 84.11 113.23 83.62 114C82.65 115.55 81.47 117.26 80.21 118.56C78.5 120.34 76.31 121.59 73.76 120.59C72.48 120.08 71.32 119.77 70.44 118.64C69.59 117.53 69.3 116.25 69.07 114.89C68.83 113.51 68.66 112.15 68.54 110.76C68.49 110.12 68.5 109.54 68.39 108.9C68.34 108.6 68.29 108.31 68.24 108.01C68.2 107.8 68.3 107.26 68.13 107.39C67.7 107.7 67.29 108.54 66.92 108.96C54.92 124.01 52.43 112.91 52.68 105.48C52.69 105.33 52.85 103.74 52.62 103.77C52.09 103.83 50.91 105.14 50.38 105.44C35.59 115.86 34.82 101.72 36.28 93.35C40.65 65.25 57 12.49 87.37 26.24C115.53 38.99 108.29 88.54 99.76 116.85C98.57 120.79 95.43 125.16 91.38 124.45Z" fill="url(#paint_linear_70_1370_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<circle id="Ellipse 1887" r="2.974604" transform="matrix(0.965926 0.258819 -0.258819 0.965926 91.7051 62.1926)" fill="#14063D" fill-opacity="1.000000"/>
+	<circle id="Ellipse 1889" r="2.974604" transform="matrix(0.965926 0.258819 -0.258819 0.965926 67.2812 55.6486)" fill="#14063D" fill-opacity="1.000000"/>
+	<path id="Ellipse 1888" d="M85.1 75.31Q84.66 76.97 83.58 78.31Q82.55 79.6 81.08 80.42Q79.62 81.23 77.96 81.44Q76.24 81.65 74.54 81.2Q72.85 80.75 71.47 79.7Q70.13 78.68 69.27 77.25Q68.41 75.81 68.16 74.18Q67.9 72.48 68.34 70.81L71.22 71.58Q70.93 72.65 71.1 73.73Q71.26 74.78 71.82 75.72Q72.38 76.66 73.26 77.33Q74.18 78.02 75.31 78.33Q76.44 78.63 77.58 78.49Q78.68 78.35 79.64 77.81Q80.59 77.29 81.26 76.45Q81.95 75.6 82.23 74.54L85.1 75.31ZM82.25 74.56L82.23 74.54C82.45 73.73 83.25 73.27 84.05 73.48C84.86 73.7 85.32 74.5 85.1 75.31L85.08 75.32L82.25 74.56ZM68.36 70.84L68.34 70.81C68.56 70.01 69.36 69.55 70.16 69.76C70.97 69.98 71.43 70.78 71.22 71.58L71.19 71.6L68.36 70.84Z" fill="#14063D" fill-opacity="1.000000" fill-rule="evenodd"/>
+</svg>
