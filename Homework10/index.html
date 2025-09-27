@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo</title>
+  <link rel="stylesheet" href="./css/main.css" />
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r16/Stats.min.js"></script>
+  <script  src="./js/main.js" type="module"></script>
+</head>
+
+<body>
+  <div id="particles-js"></div>
+  <div class="app">
+    <h1 class="title">Список дел</h1>
+    <form class="form">
+      <input class="input" type="text" name="new-todo" placeholder="Новая задача..." autocomplete="off" required>
+      <button class="button button-create">Добавить</button>
+    </form>
+    <ul class="todos">
+      <div class="empty-state">Задач пока нет. Добавьте первую задачу!</div>
+    </ul>
+    <div class="stats">
+      <span>Всего задач: <span class="total-count">0</span></span>
+      <span>Выполнено: <span class="completed-count">0</span></span>
+    </div>
+  </div>
+
+</body>
+
+</html>
